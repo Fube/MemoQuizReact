@@ -19,7 +19,7 @@ class App extends React.Component{
     const score = this.state.score - 10;
 
     if(score <= 0){
-      this.setState({ showFailModal: true });
+      this.setState({ score : 0, showFailModal: true });
       return;
     }
 
