@@ -1,0 +1,49 @@
+.quizPage {
+    background-size: cover;
+    height: 100vh;
+}
+
+.pinkBack {
+    background-color: rgba(178, 147, 192, 0.4);
+    width: 400px;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
+
+.blackBack {
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.pinkBack * {
+    margin-left: 1.5vw;
+}
+
+.startBtn {
+    margin-top: 5vh;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.marginCenter {
+    margin: 0 auto;
+}
+
+.m0 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    font-size: xx-large;
+}
